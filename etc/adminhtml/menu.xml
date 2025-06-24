@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Menu/etc/menu.xsd">
+    <menu>
+        <add id="Godukkan_Chatbot::addons_root" title="Godukkan Addons" module="Godukkan_Chatbot" sortOrder="100" resource="Godukkan_Chatbot::addons_root" />
+        <add id="Godukkan_Chatbot::crm_dashboard" title="CRM Dashboard" module="Godukkan_Chatbot" sortOrder="10" parent="Godukkan_Chatbot::addons_root" action="chatbot/dashboard/index" resource="Godukkan_Chatbot::crm_dashboard" />
+        <add id="Godukkan_Chatbot::live_chat" title="Live Chat" module="Godukkan_Chatbot" sortOrder="20" parent="Godukkan_Chatbot::addons_root" action="chatbot/live/index" resource="Godukkan_Chatbot::live_chat" />
+    </menu>
+</config> 

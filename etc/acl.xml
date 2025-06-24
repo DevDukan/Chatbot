@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<acl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <resources>
+        <resource id="Magento_Backend::admin">
+            <resource id="Godukkan_Chatbot::addons_root" title="Godukkan Addons" sortOrder="100">
+                <resource id="Godukkan_Chatbot::crm_dashboard" title="CRM Dashboard" sortOrder="10" />
+                <resource id="Godukkan_Chatbot::live_chat" title="Live Chat" sortOrder="20" />
+            </resource>
+        </resource>
+    </resources>
+</acl> 

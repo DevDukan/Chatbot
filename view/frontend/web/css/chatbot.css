@@ -1,0 +1,101 @@
+#godukkan-chatbot-root {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
+    width: 350px;
+    max-width: 95vw;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.godukkan-chatbot-box {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    max-height: 80vh;
+}
+.godukkan-chatbot-header {
+    background: #1a73e8;
+    color: #fff;
+    padding: 16px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.godukkan-chatbot-messages {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+    background: #f7f8fa;
+}
+.godukkan-chatbot-message {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+.godukkan-chatbot-message.user {
+    justify-content: flex-end;
+}
+.godukkan-chatbot-message.bot {
+    justify-content: flex-start;
+}
+.godukkan-chatbot-bubble {
+    padding: 10px 16px;
+    border-radius: 18px;
+    background: #e3eafc;
+    color: #222;
+    max-width: 80%;
+    word-break: break-word;
+}
+.godukkan-chatbot-message.user .godukkan-chatbot-bubble {
+    background: #1a73e8;
+    color: #fff;
+}
+.godukkan-chatbot-input {
+    display: flex;
+    border-top: 1px solid #eee;
+    background: #fff;
+}
+.godukkan-chatbot-input input {
+    flex: 1;
+    border: none;
+    padding: 12px;
+    font-size: 1em;
+    outline: none;
+    background: transparent;
+}
+.godukkan-chatbot-input button {
+    background: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 0 18px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 0 0 12px 0;
+    transition: background 0.2s;
+}
+.godukkan-chatbot-input button:hover {
+    background: #155ab6;
+}
+.godukkan-chatbot-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 12px 0;
+}
+.godukkan-chatbot-option-btn {
+    background: #e3eafc;
+    color: #1a73e8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.godukkan-chatbot-option-btn:hover {
+    background: #1a73e8;
+    color: #fff;
+} 
